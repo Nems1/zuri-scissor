@@ -6,14 +6,14 @@ import os
 
 import random
 
-cpu = random.choice(['P','R','S'])
+cpu = random.choice(['P','R','S']) # cpu stands for computer
 
 # Loop to allow player make a choice to play again or 
 
 while True:
     # Clear console screen (here windows environmnet
 
-    os.system('cls')
+    os.system('clear')  # on Windows use os.systm('cls')
     
     #Get Player choice and convert it to upper case
 
